@@ -1,0 +1,95 @@
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2ff;
+    
+}
+
+.container {
+    display: flex;
+}
+
+nav > ul > li {
+    display: inline-block;
+    padding: 5px 5px;
+}
+
+ul > li > #icon-action > a, ul > li > a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #24252A;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.heading .storename {
+    padding: 10px;
+    font: bold;
+}
+.heading .logo {
+    position: relative;
+    margin-left: 5px;
+    width: 20px;
+    height:auto;
+    border: 5px solid rgba(253, 183, 183, 0.2);
+    border-radius: 5px;
+    
+   
+}
+
+.sidebar {
+    position: fixed;
+    overflow: auto;
+    background-color: white;
+    border: 5px solid rgba(255, 231, 231, 0.2);
+    width: 220px;
+    height:100vh;
+
+ 
+}
+
+.content {
+    margin-left:250px;
+}
+
+
+.container .sidebar .sidelinks ul li {
+    position: relative;
+    margin-right: 20px;
+    display: grid;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 8px;
+    margin-right:50px;
+}
+
+#icon-action {
+    display: flex;
+    align-items: center;
+
+}
+
+#icon {
+    width: 18px;
+    padding: 10px;
+    margin-bottom: 4px;
+    margin-right: 2px;
+}
+
