@@ -53,7 +53,7 @@ header {
 
 .logo {
     position: relative;
-    margin-left: 5px;
+    margin-left: -2px;
     width: 20px;
     height:auto;
     border: 5px solid rgba(253, 183, 183, 0.2);
@@ -74,14 +74,19 @@ header {
     overflow: auto;
     background-color: white;
     border: 5px solid rgba(255, 231, 231, 0.2);
-    width: 210px;
+    width: 250px;
     height:100vh;
 
+}
+
+#sidebutton {
+    margin-bottom: 1px;
 }
 
 .sidebar .sidelinks {
     margin-left: -38px;
 }
+
 
 .content {
     margin-left:250px;
@@ -90,23 +95,19 @@ header {
 
 .container .sidebar .sidelinks ul li {
     position: relative;
-    margin-right: 20px;
     display: grid;
     justify-content: space-between;
     margin: 0px;
-    padding: 8px;
-    margin-right:50px;
+    padding: 0px;
 }
 
 #icon-action {
     display: flex;
     align-items: center;
-
-
 }
 
 #icon {
-    width: 19px;
+    width: 18px;
     padding: 10px;
     margin-bottom: 4px;
     margin-right: 2px;
@@ -123,19 +124,80 @@ header {
 }
 
 .customer-service-space {
+    display: grid;
     border: 1px solid transparent;
     background-color:rgba(161, 210, 255, 1);
     border-radius: 10px;
-    padding: 10px;
-    margin: 20px;
+    padding: 12px;
+    margin: 15px;
 }
 
 
+.plus-sign {
+    position: absolute;
+    margin-bottom: 15px;
+    margin-left: 25px;
+
+}
 
 .help {
-    margin-left: 12px;
-    margin-bottom: 50px;
+    margin-top: 80px;  
+    margin-left: 38px;           
 }
 
 
 
+.about {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    width: 188px;
+    height: 50px;
+    font-weight: 500;
+    font-size: small;
+    color: #24252A;
+
+}
+
+.customer-service {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    color: rgba(1, 97, 112, 1);
+    border: 1px solid transparent;
+    border-radius: 9px;
+    padding: 10px;
+    background-color: #f0f2ff;
+    width: 130px;
+    height: 22px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.search-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 60px;
+    margin-top: 8px;
+}
+
+.search-bar {
+    border: 2px solid transparent;
+    border-radius: 9px;
+    padding: 5px;
+    width: 300px;
+    margin-left: 50px;
+    
+}
+
+
+
+input::-webkit-input-placeholder { 
+    position:absolute;
+    left: 60px;
+    top: 2px;
+    font-size: 18px; 
+  }
