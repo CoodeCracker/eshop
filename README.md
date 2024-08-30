@@ -1,2 +1,2 @@
 # eshop
-webstore
+wbstore
