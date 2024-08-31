@@ -7,9 +7,7 @@ body {
     
 }
 
-.container {
-    display: flex;
-}
+
 
 nav > ul > li {
     display: inline-block;
@@ -29,20 +27,12 @@ ul > li > a {
     width: 253px;
     height: 39px;
     font: bold;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
     color: #24252A;
-    text-decoration: none;
+    text-decoration:none ;
 }
 
-header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    align-items: flex-start;
-    
-
-}
 
 .heading{
     display: flex;
@@ -89,7 +79,7 @@ header {
 
 
 .content {
-    margin-left:250px;
+    margin-left:255px;
 }
 
 
@@ -176,24 +166,39 @@ header {
     margin-left: 15px;
 }
 
-.search-icon {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    margin-left: 60px;
-    margin-top: 8px;
-}
-
-.search-bar {
-    border: 2px solid transparent;
-    border-radius: 9px;
-    padding: 5px;
-    width: 300px;
-    margin-left: 50px;
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
     
 }
 
+.navdiv > ul li {
+    list-style: none;
+    display: inline-block;
+}
 
+
+
+
+.search-icon img, .messages img{
+    width: 30px;
+    height: auto;
+}
+
+.notifications img {
+    border: 0.8px solid black;
+    border-radius: 50px;
+    width: fit-content;
+    width: 30px;
+    height: auto;
+}
+
+.user img {
+    width: 40px;
+    height: 40px;
+}
 
 input::-webkit-input-placeholder { 
     position:absolute;
@@ -201,3 +206,5 @@ input::-webkit-input-placeholder {
     top: 2px;
     font-size: 18px; 
   }
+
+
