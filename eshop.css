@@ -43,7 +43,7 @@ ul > li > a {
 
 .logo {
     position: relative;
-    margin-left: -2px;
+    margin-left: -17px;
     width: 20px;
     height:auto;
     border: 5px solid rgba(253, 183, 183, 0.2);
@@ -66,7 +66,8 @@ ul > li > a {
     border: 5px solid rgba(255, 231, 231, 0.2);
     width: 250px;
     height:100vh;
-
+    z-index: 999;
+    margin-top: 80px;
 }
 
 #sidebutton {
@@ -78,9 +79,6 @@ ul > li > a {
 }
 
 
-.content {
-    margin-left:255px;
-}
 
 
 .container .sidebar .sidelinks ul li {
@@ -166,45 +164,72 @@ ul > li > a {
     margin-left: 15px;
 }
 
+
 .navbar {
+
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    padding: 10px 20px;
     display: flex;
-    justify-content: flex-end;
+    width: 1500px;
+   
+}
+
+.nav-elements {
+    display: flex;
     align-items: center;
-    width: 100%;
-    
-}
-
-.navdiv > ul li {
     list-style: none;
-    display: inline-block;
+    margin: 0;
+    padding: 0;
 }
 
+.nav-elements li {
+    margin-right: 15px;
+}
 
+.welcome {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #24252A;
+    margin-left:140px;
+}
 
+.search-bar {
+    position: relative;
+    margin-left: 220px;
+}
 
-.search-icon img, .messages img{
+.search-bar input {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 2.5px solid #ccc;
+    border-radius: 9px;
+}
+
+.search-icon img {
+    width: 20px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    transform: translateY(-50%);
+}
+
+.messages img, .notifications img, .user img {
     width: 30px;
     height: auto;
+    cursor: pointer;
+
 }
 
 .notifications img {
-    border: 0.8px solid black;
-    border-radius: 50px;
-    width: fit-content;
-    width: 30px;
-    height: auto;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+
 }
 
-.user img {
-    width: 40px;
-    height: 40px;
+.messages img {
+    margin-left: 200px;
+    margin-right: 0px;
 }
-
-input::-webkit-input-placeholder { 
-    position:absolute;
-    left: 60px;
-    top: 2px;
-    font-size: 18px; 
-  }
-
-
