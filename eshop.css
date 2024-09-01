@@ -1,10 +1,13 @@
+
+
 body {
     height: 100vh;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #f0f2ff;
-    
+    width: fit-content;
+    overflow-x: auto;
 }
 
 
@@ -58,6 +61,77 @@ ul > li > a {
     color: rgba(1, 97, 112, 1);
 }
 
+.navdiv {
+
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    padding: 3px 20px;
+    position: fixed;
+    width: 100%;
+    height: fit-content;
+    z-index: 999;
+    
+   
+}
+
+.nav-elements {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.nav-elements li {
+    margin-right: 15px;
+}
+
+.welcome {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #24252A;
+    margin-left:140px;
+}
+
+.search-bar {
+    position: relative;
+    margin-left: 220px;
+}
+
+.search-bar input {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 2.5px solid #ccc;
+    border-radius: 9px;
+}
+
+.search-icon img {
+    width: 20px;
+    height: auto;
+    top: 50%;
+    margin-right: 8px;
+}
+
+.messages img, .notifications img, .user img {
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+
+}
+
+.notifications img {
+    border-radius: 50%;
+    border: 1px solid #ccc;
+
+}
+
+.messages img {
+    margin-left: 200px;
+    margin-right: 0px;
+}
+
 
 .sidebar {
     position: fixed;
@@ -66,8 +140,8 @@ ul > li > a {
     border: 5px solid rgba(255, 231, 231, 0.2);
     width: 250px;
     height:100vh;
-    z-index: 999;
-    margin-top: 80px;
+    z-index: 0;
+    margin-top: 50px;
 }
 
 #sidebutton {
@@ -112,6 +186,8 @@ ul > li > a {
 }
 
 .customer-service-space {
+    display: flex;
+    flex-wrap: wrap;
     display: grid;
     border: 1px solid transparent;
     background-color:rgba(161, 210, 255, 1);
@@ -164,72 +240,23 @@ ul > li > a {
     margin-left: 15px;
 }
 
-
-.navbar {
-
-    background-color: #ffffff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-    padding: 10px 20px;
+.content {
+    min-height: 100vh;
     display: flex;
-    width: 1500px;
-   
+    flex-direction: column;
+    overflow: auto;
+    position: fixed;
+    margin-left: 260px;
+    margin-top: 100px;
+    
 }
 
-.nav-elements {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
 
-.nav-elements li {
-    margin-right: 15px;
-}
-
-.welcome {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    font-weight: 600;
-    color: #24252A;
-    margin-left:140px;
-}
-
-.search-bar {
-    position: relative;
-    margin-left: 220px;
-}
-
-.search-bar input {
-    padding: 5px 10px;
-    font-size: 16px;
-    border: 2.5px solid #ccc;
-    border-radius: 9px;
-}
-
-.search-icon img {
-    width: 20px;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 8px;
-    transform: translateY(-50%);
-}
-
-.messages img, .notifications img, .user img {
-    width: 30px;
-    height: auto;
-    cursor: pointer;
-
-}
-
-.notifications img {
-    border-radius: 50%;
-    border: 1px solid #ccc;
-
-}
-
-.messages img {
-    margin-left: 200px;
-    margin-right: 0px;
+@media (max-width: 768px) {
+    .sidebar {
+      width: 180px;
+    }
+    .customer-service-space {
+        width: 150px;
+    }
 }
