@@ -75,6 +75,7 @@ ul > li > a {
 }
 
 .nav-elements {
+    overflow: auto;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -135,13 +136,15 @@ ul > li > a {
 
 .sidebar {
     position: fixed;
-    overflow: auto;
+    overflow-y: scroll;
     background-color: white;
     border: 5px solid rgba(255, 231, 231, 0.2);
     width: 250px;
     height:100vh;
     z-index: 0;
     margin-top: 50px;
+
+
 }
 
 #sidebutton {
@@ -241,14 +244,20 @@ ul > li > a {
 }
 
 .content {
-    min-height: 100vh;
+    box-sizing: border-box;
+    height: 100vh;
     display: flex;
     flex-direction: column;
-    overflow: auto;
+    overflow-y: scroll;
     position: fixed;
     margin-left: 260px;
+    margin-right: 0;
     margin-top: 100px;
     
+}
+
+.content-elements {
+    overflow: visible;
 }
 
 
