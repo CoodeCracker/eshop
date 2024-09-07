@@ -95,7 +95,7 @@ nav ul li {
     top: 80px;
     left: 20px;
     width: 250px; 
-    height: 80vh;  
+    height: 500px;
     background-color: #fff; 
     z-index: 1000;  
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);  
@@ -117,15 +117,13 @@ nav ul li {
 }
 
 
-.sidebar ul li {
-    margin: 10px 0;
-}
 
-.container .sidebar .sidelinks ul li {
+
+.sidebar .sidelinks ul li {
     position: relative;
     display: grid;
     justify-content: space-between;
-    margin: 0px;
+    margin: 10px 0;
     padding: 0px;
 }
 
