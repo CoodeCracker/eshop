@@ -66,3 +66,112 @@ nav ul li {
 }
 
 
+
+.sidebar {
+    position: fixed;
+    overflow-y: scroll;
+    background-color: white;
+    border: 5px solid rgba(255, 231, 231, 0.2);
+    width: 250px;
+    height:100vh;
+    z-index: 0;
+    margin-top: 50px;
+
+
+}
+
+#sidebutton {
+    margin-bottom: 1px;
+}
+
+.sidebar .sidelinks {
+    margin-left: -38px;
+}
+
+
+
+
+.container .sidebar .sidelinks ul li {
+    position: relative;
+    display: grid;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+
+#icon-action {
+    display: flex;
+    align-items: center;
+}
+
+#icon {
+    width: 18px;
+    padding: 10px;
+    margin-bottom: 4px;
+    margin-right: 2px;
+    color:rgba(92, 92, 92, 1);
+    margin-top: 2px;
+
+
+}
+
+.exploreicon {
+    margin-top: 1px;
+    color:rgba(92, 92, 92, 1);
+
+}
+
+.customer-service-space {
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    border: 1px solid transparent;
+    background-color:rgba(161, 210, 255, 1);
+    border-radius: 10px;
+    padding: 12px;
+    margin: 15px;
+}
+
+
+.plus-sign {
+    position: absolute;
+    margin-bottom: 15px;
+    margin-left: 25px;
+
+}
+
+.help {
+    margin-top: 80px;  
+    margin-left: 38px;           
+}
+
+
+
+.about {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    width: 188px;
+    height: 50px;
+    font-weight: 500;
+    font-size: small;
+    color: #24252A;
+
+}
+
+.customer-service {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    color: rgba(1, 97, 112, 1);
+    border: 1px solid transparent;
+    border-radius: 9px;
+    padding: 10px;
+    background-color: #f0f2ff;
+    width: 130px;
+    height: 22px;
+    font-weight: 500;
+    margin-left: 15px;
+}
