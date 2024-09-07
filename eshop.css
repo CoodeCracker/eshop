@@ -17,7 +17,7 @@ nav ul {
     background-color: white;
     display: flex;
     justify-content: flex-end;
-    text-decoration: none;
+    align-items: center;
     
 }
 
@@ -25,6 +25,7 @@ nav ul li {
     text-decoration: none;
     align-items: center;
     padding: 0 15px;
+    font-family: "Poppins", sans-serif;
 }
 
 .shopname {
