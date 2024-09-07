@@ -7,9 +7,25 @@ body {
 
 .logo img {
     width: 30px;
-    border: 6px solid transparent;
-    background-color: rgba(161, 210, 255, 0.2);
-    border-radius:18px;
+    border: 5px solid rgba(253, 183, 183, 0.2);
+    border-radius: 5px;
+}
+
+.shopname{
+    margin-right:auto;
+    color:rgba(1, 97, 112, 1);
+    font-weight: bold;
+}
+
+.welcome {
+    margin-right: auto;
+}
+
+.search-bar {
+    margin-right: auto;
+    border: 4px solid black;
+    border-radius: 8px;
+    padding: 0px;
 }
 
 .nav-logos-m-27 img {
@@ -17,6 +33,8 @@ body {
 }
 
 nav ul {
+    padding: 5px;
+    margin: 0;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -27,15 +45,10 @@ nav ul {
 nav ul li {
     text-decoration: none;
     align-items: center;
-    padding: 0 15px;
+    padding: 0 10px;
     font-family: "Poppins", sans-serif;
     list-style: none;
+    margin-top: 4px;
 }
 
-.welcome {
-}
 
-.shopname{
-    margin-right:auto;
-    text-decoration: none;
-}
