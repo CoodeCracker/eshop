@@ -57,6 +57,8 @@ button img {
 }
 
 .search-comb {
+    display:flex;
+    flex-wrap:wrap;
     background-color: white;
     border: 1px solid transparent;
     border-radius: 10px;
