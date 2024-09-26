@@ -7,9 +7,26 @@
         <link rel="website icon" type="jpeg" src="/icons/logo.jpeg">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-            @media (min-width:600px){
-                
-
+            @media (max-width: 730px){
+                .welcome{
+                    display: none;
+                }
+                .search-comb{
+                    margin-left: 90px;
+                }
+            }
+            @media (max-width: 650px){
+                .shopname{
+                    display: none;
+                }
+                .search-comb{
+                    margin-left: 50px;
+                }
+            }
+            @media (max-width: 500px){
+                .search-comb{
+                    margin-left: 20px;
+                }
             }
         </style>
     </head>
@@ -39,7 +56,7 @@
                         <img class="earpud00" src="img/earpuds-prod.png" alt="product-n00">
                     </div>
                     <div class="product-info">
-                        <span>BrandNew Earpuds</span>
+                        <span id="product-name">BRANDNEW EARPUDS</span>
                         <div class="rating-stars-reviews">
                             <img id="star" src="icons/star.png" alt="rating01">
                             <img id="star" src="icons/star.png" alt="rating02">
@@ -48,7 +65,7 @@
                             <img id="star" src="icons/star.png" alt="rating05">
                             <span id="reviews">(2000+ reviews)</span>
                         </div>
-                        <span>Price 5.99$</span>
+                        <span id="product-price">Price 5.99$</span>
                         <div class="product-color-quantity">
                             <div class="product-color">
                                 <span>Color</span>
