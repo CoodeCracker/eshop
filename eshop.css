@@ -368,9 +368,31 @@ nav ul li {
     padding: 2px;
 }
 
+
 .other-products {
+    display: flex;
+    justify-content: space-around;
     margin-top: 25px;
 }
+
+.product-01 {
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: 1px 0 22px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 1);
+    width: fit-content;
+    padding: 10px;
+    
+}
+
+.product-01-name {
+    font-weight: bold;
+}
+
+.product-01-price, .product-01-price-value{
+    color: rgba(1, 97, 112, 1);
+}
+
 .product-01-image {
     width: 131px;
     height: 131px;
@@ -388,4 +410,10 @@ nav ul li {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.rate-and-add-product span {
+    margin-right: auto;
+    margin-left: 4px;
+    margin-top: 3px;
 }
