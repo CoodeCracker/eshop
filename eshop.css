@@ -237,7 +237,6 @@ nav ul li {
 .content {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
 
 }
 .earpud00 {
@@ -274,7 +273,7 @@ nav ul li {
     text-decoration: none;
 }
 
-#product-name {
+#main-product-name {
     font-weight: bold;
 }
 
@@ -367,4 +366,26 @@ nav ul li {
     border: 2px solid rgba(1, 97, 112, 1);
     border-radius: 5px;
     padding: 2px;
+}
+
+.other-products {
+    margin-top: 25px;
+}
+.product-01-image {
+    width: 131px;
+    height: 131px;
+}
+
+.little-rate-star {
+    width: 15px;
+}
+
+.add-to-cart-sign {
+    width: 30px;
+}
+
+.rate-and-add-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
