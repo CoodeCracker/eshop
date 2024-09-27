@@ -7,12 +7,35 @@
         <link rel="website icon" type="jpeg" src="/icons/logo.jpeg">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
+            @media (max-width: 1100px){
+                .sidebar {
+                    height: 390px;
+                }
+            }
+            @media (max-width: 1000px){
+                .sidebar {
+                    height: 360px;
+                }
+            }
+            @media (max-width: 900px){
+                .sidebar {
+                    height: 320px;
+                }
+            }
+            @media (max-width: 800px){
+                .sidebar {
+                    height: 280px;
+                }
+            }
             @media (max-width: 730px){
                 .welcome{
                     display: none;
                 }
                 .search-comb{
                     margin-left: 90px;
+                }
+                .sidebar {
+                    height: 250px;
                 }
             }
             @media (max-width: 650px){
@@ -22,10 +45,16 @@
                 .search-comb{
                     margin-left: 50px;
                 }
+                .sidebar {
+                    height: 200px;
+                }
             }
             @media (max-width: 500px){
                 .search-comb{
                     margin-left: 20px;
+                }
+                .sidebar {
+                    height: 150px;
                 }
             }
         </style>
@@ -79,7 +108,13 @@
                                 <button class="plus"><span>+</span></button>
                             </div>
                         </div>
+                        <div class="like-add-buy">
+                            <button class="product-like"><img src="icons/heart.png" alt="like for the product"></button>
+                            <a href="#" class="add-to-cart"><span>ADD TO CART</span></a>
+                            <a href="#" class="buy-button">BUY NOW</a>
+                        </div>
                     </div>
+
                 </div>  
 
             </div>

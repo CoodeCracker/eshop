@@ -117,7 +117,7 @@ nav ul li {
     display: none;
     position: fixed;  
     border-radius: 8px;
-    top: 80px;
+    top: 70px;
     left: 20px;
     width: 250px; 
     height: 500px;
@@ -175,8 +175,6 @@ nav ul li {
 }
 
 .customer-service-space {
-    display: flex;
-    flex-wrap: wrap;
     display: grid;
     border: 1px solid transparent;
     background-color:rgba(161, 210, 255, 1);
@@ -332,4 +330,41 @@ nav ul li {
     padding: 4px;
 }
 
+.like-add-buy {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.add-to-cart{
+    text-decoration: none;
+    border: 2px solid rgba(1, 97, 112, 1);
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: small;
+    padding: 2px;
+    color: rgba(1, 97, 112, 1);
+    
+}
+
+.buy-button {
+    text-decoration: none;
+    border: transparent;
+    border-radius: 5px;
+    padding: 4.5px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+    color: white;
+    background-color: rgba(0, 147, 147, 1);
+
+
+}
+
+.product-like img {
+    width: 15px;
+    border: 2px solid rgba(1, 97, 112, 1);
+    border-radius: 5px;
+    padding: 2px;
+}
